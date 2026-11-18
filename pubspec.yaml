@@ -1,0 +1,27 @@
+name: paint_visibility
+description: Frame-accurate visibility detection for Flutter, computed from the render tree without timers, keys, or renderer-dependent state.
+version: 0.1.0
+repository: https://github.com/koji-1009/paint_visibility
+issue_tracker: https://github.com/koji-1009/paint_visibility/issues
+
+topics:
+  - visibility
+  - viewport
+  - sliver
+  - impression
+
+environment:
+  sdk: ">=3.14.0 <4.0.0"
+  flutter: ">=3.50.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+  dapper: ^1.4.0
+  material_ui: ^1.11.0
+  cupertino_ui: ^1.1.0
